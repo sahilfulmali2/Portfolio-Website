@@ -1,0 +1,22 @@
+/* App.css */
+/* slick-carousel styles */
+/* In your App.css */
+@import "/node_modules/slick-carousel/slick/slick.css";
+@import "/node_modules/slick-carousel/slick/slick-theme.css";
+
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #000000;
+  color: white;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+.home {
+ 
+  padding: 20px;
+}
+
