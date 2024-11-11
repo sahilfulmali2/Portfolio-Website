@@ -108,65 +108,7 @@
     filter: drop-shadow(0 0 10px #8b00ff);
   }
 }
-.about-container {
-  height: 70vh;
-  padding: 30px;
-  margin: 20px;
-  background-color: rgb(57, 57, 57);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-}
-.internal-container {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-}
-.about-container img {
-  height: 35px;
-  width: 35px;
-  margin: 15px;
-  margin-left: 0;
-}
 
-.about-me {
-  width: 48%;
-  height: 100%;
-  padding-right: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  overflow: auto;
-}
-.about-container h1 {
-  font-size: 45px;
-  color: rgb(255, 255, 255);
-  font-weight: 800;
-}
-.links h1 {
-  font-size: 35px;
-  color: rgb(255, 255, 255);
-  font-weight: 800;
-}
-.links {
-  width: 48%;
-  padding-left: 20px;
-}
-.about-me > p {
-  text-align: justify;
-  padding: 20px;
-  overflow: auto;
-  height: 100%;
-  width: 70%;
-  background-color: rgb(39, 39, 39);
-  border-radius: 15px;
-
-  &::-webkit-scrollbar {
-    display: none; /* Hide scrollbar */
-  }
-}
 
 @media (max-width: 600px) {
   #Home {
@@ -178,11 +120,12 @@
     height: 50%;
   }
   .homecontent h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .homecontent h3 {
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 700;
     color: rgb(8, 225, 153);
   }
   .profile-image {
